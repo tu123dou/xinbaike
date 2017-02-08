@@ -5,3 +5,178 @@
     font-size: 17px;
     float: right;
 }
+/* index CSS */
+
+/*
+	border:1px solid #FF0000;
+	a:hover{
+	color:#FF0000;
+		}
+*/
+/* banner */
+/*本例css*/
+.ban{ width: 1076px; height:480px; margin:40px auto; position: relative; overflow:hidden;}
+
+/*上一个  下一个*/
+.ban .prev,
+.ban .next { display: none; width: 40px; height: 100px; background: url(../images/btn.png) no-repeat; position: absolute; top: 190px;}
+.ban .prev { left: 0; }
+.ban .next { right: 0; background-position: right }
+/* banner */
+
+/* 特殊样式   开始  */
+.in_ct{
+    width:1076px;height:auto;
+    overflow:hidden;
+    margin:0px auto 65px;
+}
+.box23{
+    width:534px; height:auto;
+    overflow:hidden;
+}
+.box456{
+    width:264px; height:auto;
+    overflow:hidden;
+}
+/* 特殊样式   结束  */
+
+/* in_box1 */
+.box1{
+    width:262px; height:378px;
+    overflow:hidden;
+    border:1px solid #ed7bae;
+    margin-right:7px;
+}
+.box1a{
+    width:262px; height:35px;
+    overflow:hidden;
+    background:url(../images/box11.gif) no-repeat left top #fbdceb;
+}
+/*********图片切换 css定义***********/
+.sub_box{width:262px; height:343px; float:left; position:relative; overflow:hidden;}
+.sub_box img{border:none; width:262px; height:343px;}
+#bd1lfimg{position:relative; width:262px; height:343px; overflow:hidden;}
+#bd1lfimg div{width:100000px; margin-left:-4px;}
+#bd1lfimg dl{width:262px; height:343px; position:relative; overflow:hidden; float:left;}
+#bd1lfimg dt{width:262px; height:343px; position:absolute; left:0px; top:0px;}
+
+.sub_nav{width:262px; height:25px; bottom:0px; position:absolute; color:#999999; z-index:200;}
+.sub_no{height:25px; float:right;}
+.sub_no li{display:block; width:25px; height:25px; float:left; overflow:hidden; line-height:25px; vertical-align:middle; text-align:center; background:#000000; filter:alpha(Opacity=70); Opacity:0.7; font-family:Arial; font-size:11px; color:#999999; cursor:pointer;}
+.sub_no li.show{background:#ffffff; color:#000000;}
+/*********图片切换 css定义***********/
+
+/* in_box2 */
+.box2{
+    width:532px; height:185px;
+    overflow:hidden;
+    border:1px solid #ed7bae;
+}
+.box2a{
+    width:532px; height:35px;
+    overflow:hidden;
+    background:url(../images/box21.gif) no-repeat left top #fbdceb;
+}
+
+/* in_box3 */
+.box3 {
+    width: 534px;
+    height: 185px;
+    overflow: hidden;
+    margin-top: 8px;
+}
+.box3a{
+    width:264px; height:185px;
+    overflow:hidden;
+    background:url(../images/box31.gif) no-repeat left top #fbdceb;
+}
+.box3a_{
+    width:240px; height:auto;
+    overflow:hidden;
+    margin:5px 0 0 12px;
+}
+.box3a_ ul li{
+    width:240px; height:27px; line-height:27px;
+    overflow:hidden;
+    background:#fff;
+    text-indent:5px;
+    margin-bottom:3px;
+}
+.box3a_ ul li a{color:#e3017f;}
+.box3a_ ul li:hover{ background:#e3017f;}
+.box3a_ ul li a:hover{color:#fff;}
+.box3a_ ul li.qh_hover{ background:#e3017f;}
+.box3a_ ul li.qh_hover a{color:#fff;}
+
+/* in_box4 */
+.box4{
+    width:262px; height:121px;
+    overflow:hidden;
+    border:1px solid #ed7bae;
+    background:#fbdceb;
+}
+.box4a{
+    width:262px; height:35px;
+    overflow:hidden;
+    background:url(../images/box41.gif) no-repeat left top #fbdceb;
+}
+.box4bc input{ border:none; font-size:14px; color:#333;}
+.box4b{
+    width:180px; height:auto;
+    overflow:hidden;
+    margin:10px 0 0 20px;
+}
+.box411{
+    width:174px; height:29px; line-height:29px;
+    overflow:hidden;
+    background:url(../images/box42.gif) no-repeat right top;
+    text-indent:55px;
+    margin-bottom:4px;
+}
+.box412{
+    width:174px; height:28px; line-height:28px;
+    overflow:hidden;
+    background:url(../images/box43.gif) no-repeat right top;
+    text-indent:55px;
+}
+.box4c{
+    width:auto; height:auto;
+    overflow:hidden;
+    margin-top:10px;
+}
+.box413{
+    width:45px; height:61px;
+    overflow:hidden;
+    background:url(../images/box44.gif) no-repeat right top;
+    cursor:pointer;
+}
+/* in_box5 */
+.box5{
+    width:264px; height:126px;
+    overflow:hidden;
+    background:url(../images/box51.gif) no-repeat;
+    margin:3px 0;
+    text-align:center;
+}
+.box5 img{margin-top:3px;}
+/* in_box6 */
+.box6{
+    width:264px; height:125px;
+    overflow:hidden;
+    background:url(../images/box62.gif) no-repeat;
+}
+.box6_{
+    width:230px; height:auto;
+    overflow:hidden;
+    margin:30px 0 0 20px;
+}
+.box6_ ul li{
+    width:230px; height:22px; line-height:22px;
+    overflow:hidden;
+}
+.box6_ ul li a{color:#e3017f;}
+
+/* in_box7 */
+/* in_box8 */
+/* in_box9 */
+/* in_box10 */
